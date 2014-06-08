@@ -1,0 +1,8 @@
+{
+  "name": "my-first-spa",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.0"
+  },
+  "devDependencies": {}
+}
