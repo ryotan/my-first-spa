@@ -36,21 +36,30 @@
 
     // モジュール/spa/
     // チャットスライダー機能を提供する
-    // モジュールスコープ変数
-    // 定数を設定する
-    // その他のすべてのモジュールスコープ変数を宣言する
+    var spa = (function($) {
+      // モジュールスコープ変数
+      // 定数を設定する
+      var configMap = {},
+      // その他のすべてのモジュールスコープ変数を宣言する
+          $chatSlider,
+          toggleSlider, onClickSlider, initModule;
 
-    // DOMメソッド/toggleSlider/
-    // スライダーの高さを切り替える
+      // DOMメソッド/toggleSlider/
+      // スライダーの高さを切り替える
+      toggleSlider = function() {};
 
-    // イベントハンドラ/onClickSlider/
-    // クリックイベントを受け取り、toggleSliderを呼び出す
+      // イベントハンドラ/onClickSlider/
+      // クリックイベントを受け取り、toggleSliderを呼び出す
+      onClickSlider = function(event) {};
 
-    // パブリックメソッド/initModule/
-    // 初期状態を設定し、機能を提供する
-    // HTMLをレンダリングする
-    // スライダーの高さとタイトルを初期化する
-    // ユーザクリックイベントをイベントハンドラにバインドする
+      // パブリックメソッド/initModule/
+      // 初期状態を設定し、機能を提供する
+      initModule = function($container) {
+        // HTMLをレンダリングする
+        // スライダーの高さとタイトルを初期化する
+        // ユーザクリックイベントをイベントハンドラにバインドする
+      };
+    });
 
     // DOMの準備ができたらspaを開始する
   </script>
